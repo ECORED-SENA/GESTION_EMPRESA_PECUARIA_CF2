@@ -1,0 +1,269 @@
+/////////// Variables color
+$Olive: #679c26
+$GrayBlue: #3C6D9D
+$paleYellow: #F5DB9A
+
+///////// Utilidades
+
+//////////// Utilidades de texto
+
+.txt--verde
+  color: $Olive !important
+  font-weight: 500
+
+.txt--azul
+  color: $GrayBlue
+  font-weight: 800
+
+  
+/////////// Tarjetas
+
+.crd
+  width: 100%
+  padding: 2rem
+  &--100
+    height: 100%
+  &-white
+    background-color: #ffffff  
+    border-radius: 25px
+
+.horizontal-scroll
+  align-items: stretch !important
+
+.crd_01
+  width: 100%
+  padding: 0.5rem
+
+@media (max-width: 1199px)
+  .crd_01
+    padding: 2rem
+
+.color-paleYellow
+  background-color: $paleYellow
+
+.crd--blueGray
+  background-color: #E8EEF3
+
+.crd--blue
+  background-color: #3C6D9D
+
+.crd--paleblue
+  background-color: #E8EEF3
+
+.crd--green
+  position: relative
+  height: 100%
+  figure
+    position: absolute   
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: #BADA95
+
+@media (max-width: 1199px)
+  .crd--green
+    figure
+      position: relative 
+      width: 255px  
+      img
+        width: 255px 
+
+.topCrd
+  position: relative  
+  *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 80%
+    background-color: white
+
+.crd-link
+  padding: 2rem
+  border-radius: 25px
+  background-color: #E8EEF3
+  p
+    margin-bottom: 0
+    text-align: center
+    color: $color-sistema-texto    
+    font-weight: 600
+  &:hover    
+    background-color: #274869
+    p 
+      color: white
+
+.clr-01
+  background-color: #3C6D9D 
+  &::before
+    background-color: #E8E8E8 
+
+.crd--blue 
+  background-color: #3C6D9D
+  border-radius: 25px
+
+.crd--griss
+  background-color: #E8EEF3
+
+.crd--darkGray 
+  background-color: #BCBCBC
+  border-radius: 25px
+
+.negMargin  
+  margin-left: -4rem
+
+  
+/////////// Fondos
+
+.cp
+  display: flex
+  p, .cp_title   
+    flex: 1 
+  .waves_01
+    width: 40px
+    margin-bottom: 15px
+    margin-right: 15px
+    background-image: url('../assets/curso/waves_02.svg')    
+    background-repeat: repeat-y  
+  .waves_02
+    width: 85px
+    margin-bottom: 15px
+    margin-right: 15px
+    background-image: url('../assets/curso/waves_01.svg')    
+    background-repeat: repeat-y
+  .square
+    position: relative
+    top: 4px
+    width: 16px
+    height: 16px
+    margin-right: 7px
+    background-color: $Olive
+
+.waves
+  width: 85px  
+  height: 37px
+  background-image: url('../assets/curso/waves_01.svg')
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: left
+
+
+.bg_crd_01
+  border-radius: 25px
+  background-image: url('../assets/curso/bg_crd_01.png')
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: left
+
+.bg_crd_02
+  border-radius: 25px
+  background-image: url('../assets/curso/bg_crd_02.jpg')
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.25)
+
+.bg_waves_01
+  position: relative
+  .row, figure, p, .titulo-segundo, .cp
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/bg_wave_01.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: top
+
+.bg_gray
+  position: relative
+  .row, figure, p, .titulo-segundo, .cp, *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-color: #E8EEF3
+
+.bg_gray_02
+  position: relative
+  .row, figure, p, .titulo-segundo, .cp, *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background: linear-gradient(180deg, rgba(246,247,247,1) 0%, rgba(201,216,229,1) 100%)
+
+.bg_slider
+  border-radius: 25px
+  background-image: url('../assets/curso/tema3/slider.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
+
+
+
+/////////// CUSTOM COMPONENTS
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  opacity: 1 !important
+
+.img-infografica__item__numero, .img-infografica-b__item__numero
+  color: black !important
+
+.img-infografica-b__modal
+  background: linear-gradient(-90deg, rgba(60,109,157,1) 0%, rgba(30,55,79,1) 100%)
+
+.img-infografica-b__modal__contenido 
+  h5
+    color: #78B62E !important
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #3C6D9D !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #c0d0df
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #BADA95
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #BADA95
+
+///////////// CUSTOM TABLE
+
+.tabla-Dan thead
+  border-top: 5px solid #78B62E
+  color: #365D08
+  background-color: #e8e8e8
+
+//////////// CUSTOM SLIDER
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #9dc3e9

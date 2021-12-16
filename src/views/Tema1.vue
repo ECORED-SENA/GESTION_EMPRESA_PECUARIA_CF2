@@ -1,0 +1,328 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 1
+      h1 Información
+
+    .row.justify-content-center.mb-5
+      .col-xl-4.mb-4.mb-xl-0 
+        p.mb-0 #[span.txt--verde La información es la disposición de datos en un orden o estructura determinada bajo las reglas de un contexto específico, con lo que se les brinda a estos últimos alguna utilidad]. Los datos son, en principio, abstractos, por ejemplo, una serie de caracteres o dígitos numéricos, presentados a modo de listado o de forma desorganizada, no aportan información de utilidad, sin embargo, si se les dota de contexto y se justifica su ordenamiento, pueden llevar al entendimiento de una situación específica.
+      .col-xl-8 
+        .row
+          .col-lg-6.mb-4.mb-xl-0 
+            figure
+              img(src="@/assets/curso/tema1/t1_02.png", alt="alt", style="width:600px;").m-auto
+          .col-lg-6
+            .waves.mb-3
+            p Por ejemplo, una lista de números de dos cifras presentadas en forma vertical podría significar miles de cosas, sin embargo, si la columna se titula “edad de los participantes”, puede deducirse que cada valor listado representa los años de edad de personas que pertenecen a un grupo estudiado; cada dato adicional que se incluya brindará un mayor contexto y, por lo tanto, los datos se tornarán en información relevante.
+
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 1.1  uso
+
+    p.mb-5 El uso de la información es casi interminable y, para cualquier empresa, será la forma de avanzar si le encuentran la forma ideal, tal como se narra a continuación:
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+
+    separador
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2  Ciclo de vida
+
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-4.mb-lg-0
+        p.mb-0 La información atraviesa un proceso que contiene cuatro etapas principales y que comprenden aquellas actividades derivadas de su recolección, análisis y conservación. Cada etapa detalla una serie de parámetros centrados en la mejora de la productividad, bien sea enfocada en la precisión de la información recolectada, o en la consecución de objetivos a partir de la interpretación de los datos dispuestos. El siguiente diagrama presenta las cuatro etapas del ciclo de vida de la información:
+
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/t1_03.svg", alt="alt", style="width:400px;").m-auto
+
+    .row.justify-content-center
+      .col-12
+        ImagenInfograficaB.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1/t1_04.svg', alt='')             
+
+          div(x="27.1%" y="45.3%" tooltip="Creación y captura" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Creación y captura
+                p Corresponde a la primera etapa del ciclo de vida de la información. Los datos pueden surgir a partir de diversas fuentes, siempre y cuando, las mismas se encuentren destinadas a suplir las necesidades de la organización. Algunas de las fuentes de información más utilizadas son las siguientes:
+                ul.lista-ul--separador
+                  li 
+                    i.fas.fa-angle-right
+                    | Datos preexistentes
+                  li 
+                    i.fas.fa-angle-right
+                    | Generación de la información
+                  li 
+                    i.fas.fa-angle-right
+                    | Información disponible                 
+ 
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_05.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="27.1%" y="57%" tooltip="Datos preexistentes" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Datos preexistentes
+                p Pueden ser de otras organizaciones, empresas que pueden dedicarse al mismo sector o a la misma actividad, puesto que, de esta forma, se posibilita la homologación de los datos entre compañías, sin esfuerzos desproporcionados.   
+ 
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_06.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="27.1%" y="70%" tooltip="Generación de la información" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Generación de la información
+                p A través de las actividades desarrolladas por los funcionarios encargados.   
+ 
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_07.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="27.1%" y="83%" tooltip="Información disponible" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Información disponible
+                p En medios de acceso público, como libros, noticiarios, páginas web o redes sociales; la selección de estas fuentes estará supeditada a la naturaleza de la investigación y sus objetivos. 
+ 
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_08.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="44.3%" y="45.3%" tooltip="Transmisión, almacenamiento y seguridad" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Transmisión, almacenamiento y seguridad
+                p Una vez la información ha sido recolectada, se continúa con la transmisión a los usuarios interesados. Para garantizar el acceso a los datos en periodos posteriores, es necesario su almacenaje en condiciones seguras que garanticen su integridad.   
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_09.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="44.3%" y="57%" tooltip="Transmisión" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Transmisión 
+                p La información puede ser relevante para diferentes actores en una misma organización. Los datos de venta son importantes para el área comercial, pero también lo son para el área de recaudo o de producción. Debido a esto, deben existir medios de transmisión de la información que permitan que esta llegue a todos los interesados. Las posibilidades van desde las soluciones integrales asociadas a softwares administrativos, hasta los programas de mensajería instantánea.  
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_10.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="44.3%" y="70%" tooltip="Almacenamiento" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Almacenamiento 
+                p Tanto la información física como digital demandan espacios para su almacenamiento. Las bases de datos abordan esta tarea conservando la información según los criterios técnicos aplicados, de la misma forma que lo hace una estantería que archiva los documentos físicos.   
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_11.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="44.3%" y="83%" tooltip="Seguridad" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Seguridad
+                p Cuando se trabaja con datos sensibles, deben existir sistemas encargados de facilitar la información a aquellos destinatarios cuando la requieran, pero de esta misma forma, deben implementarse medidas para que el acceso sea lo suficientemente controlado para evitar que personas no autorizadas accedan a ella. La información es un activo intangible de vital importancia para cualquier organización, puesto que compila datos variados y claves de la empresa, como clientes, fórmulas de producción o estrategias mercantiles; su publicación puede conllevar consecuencias graves, donde se pierden ventajas competitivas.   
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_12.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="61.2%" y="45.3%" tooltip="Gestión y trabajo colaborativo" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Gestión y trabajo colaborativo
+                p Debido a las diversas perspectivas desde donde se puede abordar la información, suele ser recomendable el trabajo colaborativo. Cuando existe multiplicidad de colaboradores, la productividad incrementa; es por ello que, usualmente, se designan funcionarios de cada área para sustraer los datos más relevantes para ellos, otorgando los permisos necesarios en una ventana de tiempo determinada.   
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_13.png", alt="alt", style="width:400px;").m-auto
+
+          div(x="78.3%" y="45.3%" tooltip="Análisis y explotación de datos" numero="+")
+            .row.justify-cotent-center.align-items-center
+              .col-lg-8
+                h5 Análisis y explotación de datos
+                p La interpretación de la información se erige como la última fase de su ciclo de vida, y es en este proceso donde se genera nuevo conocimiento a partir de los datos recolectados. El análisis busca llegar a conclusiones o juicios de valor fundamentados, por lo que la toma de decisiones debe darse una vez se aborda este apartado.   
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1/t1_13.png", alt="alt", style="width:400px;").m-auto
+
+    separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Lenguaje técnico
+
+    .row.justify-content-center.mb-5
+      .col-xl-4.mb-4.mb-xl-0 
+        p.mb-0 La información debe presentarse de tal manera que sea entendible para su público objetivo; así, cuando es de interés general, el lenguaje debe usar terminología común para cualquier individuo, sin importar su profesión u oficio. Por otro lado, cuando se busca abordar temáticas técnicas propias de una disciplina muy concreta, es viable el uso de un lenguaje más preciso y de alto contenido técnico.
+      .col-xl-8 
+        .row
+          .col-lg-6.mb-4.mb-xl-0 
+            figure
+              img(src="@/assets/curso/tema1/t1_14.jpg", alt="alt", style="width:400px;").m-auto
+          .col-lg-6            
+            p El ser humano ha ampliado su intelecto en todas las direcciones, desde las ciencias de la salud, hasta las económicas, desde el aspecto deportivo, hasta el musical; y este crecimiento exponencial y multidireccional lo ha llevado a utilizar jergas muy específicas para cada campo del conocimiento. El lenguaje técnico se caracteriza por ser accesible únicamente para los estudiados en cierta materia, pero su uso es cada vez más popular, debido a la constante profundización en las temáticas objeto de estudio. 
+
+    .crd_01.bg_crd_02.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-7.order-2.order-lg-1
+          .cp
+            .waves_01
+            p #[span.txt--verde Conforme pasa el tiempo, el enriquecimiento de nuestro idioma se ve liderado por la utilización de lenguajes técnicos para todas las disciplinas abordadas]. Castillo (2018) sugiere las siguientes características para este lenguaje:
+        .col-lg-4.order-1.order-lg-2
+          figure
+            img(src="@/assets/curso/tema1/t1_15.png", alt="alt", style="width:320px;").m-auto
+
+    .bg_waves_01
+      .row.justify-content-center
+        .col-10
+          ImagenInfografica.color-acento-botones
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema1/t1_16.svg', alt='')
+
+            .tarjeta.color-paleYellow.p-3(x="28.7%" y="31%" numero="+")
+              .h5.mb-2 Crecimiento exponencial
+              p.mb-0 Conforme más tiempo pasa, más acelerado es su crecimiento, es una situación natural en la sociedad actual, donde el acceso a la educación es cada vez más popular, y las nuevas tecnologías permiten la publicación a nivel global de toda clase de artículos que promueven el avance cultural.
+
+            .tarjeta.color-paleYellow.p-3(x="28.7%" y="67%" numero="+")
+              .h5.mb-2 Coherencia, cohesión y adecuación
+              p.mb-0 Se considera coherente debido a su enfoque en un tema particular, mientras que su cohesión proviene del interés en generar afirmaciones a partir de diversos juicios e ideas que convergen en algo más concreto. Por último, se habla de adecuación debido a la forma en la que se perfila para ser dirigido a un público específico.
+
+            .tarjeta.color-paleYellow.p-3(x="71.3%" y="31%" numero="+")
+              .h5.mb-2 Objetivo específico
+              p.mb-0 Debido a que la terminología solo puede ser plenamente entendida por los expertos en la materia estudiada, su uso se encuentra limitado a públicos específicos: un gremio, una profesión o incluso una temática particular.
+
+            .tarjeta.color-paleYellow.p-3(x="71.3%" y="67%" numero="+")
+              .h5.mb-2 Carácter unívoco
+              p.mb-0 El lenguaje técnico es tan cerrado a un tema particular que es muy poco probable encontrar más de un significado para sus términos. Esto quiere decir que no es para nada habitual evidenciar términos equivalentes, por lo que cada palabra siempre suele significar lo mismo.
+
+      separador 
+
+      #t_1_4.titulo-segundo.color-acento-contenido
+        h2 1.4 Confidencialidad
+
+      .row.justify-content-center.mb-4
+        .col-lg-7
+          p La información es un bien preciado para cualquier individuo, natural o jurídico, puesto que a través de ello se puede acceder a eventos pasados para prever situaciones futuras. Este material histórico puede ser considerado sensible según las particularidades del mismo; por ejemplo, la dirección de residencia de una persona, su teléfono personal o los datos de sus cuentas bancarias son datos que no pueden ser publicados a un amplio grupo de terceros, debido a las consecuencias que ello puede traer.
+          p #[span.txt--verde La Constitución Política de 1991 ya consideró este tipo de eventos, por lo que en su Artículo 15 reguló el derecho a la intimidad de las personas, así:]
+          .crd.crd--blueGray
+            p.mb-0 #[span.txt--verde ARTÍCULO 15.] Constitución Política. Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/tema1/t1_17.png", alt="alt", style="width:525px;").m-auto
+
+      .row.justify-content-center.mb-4
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/tema1/t1_18.png", alt="alt", style="width:525px;").m-auto          
+        .col-lg-7
+          p En la recolección, tratamiento y circulación de datos, se respetarán la libertad y demás garantías consagradas en la Constitución.
+          .cp
+            .waves_02
+            p La correspondencia y demás formas de comunicación privada son inviolables. Solo pueden ser interceptadas o registradas mediante orden judicial, en los casos y con las formalidades que establezca la ley.
+
+          p Para efectos tributarios o judiciales y para los casos de inspección, vigilancia e intervención del Estado, #[span.txt--verde podrá exigirse la presentación de libros de contabilidad y demás documentos privados, en los términos que señale la ley].
+
+          p La información tiene muchas presentaciones y la carta magna aborda algunas de las más comunes y personales, como la correspondencia o medios de comunicación privada, pero también incluye otras de uso más comercial, como los bancos de datos, que suelen ser administrados por entidades públicas o empresas de carácter privado. 
+
+      .cp.mb-4
+        .waves_02
+        p La reglamentación a este derecho constitucional se encuentra en la Ley estatutaria 1266 de 2008, donde se establece el tratamiento de la información contenida en las bases de datos. El Artículo 1 de la ley en mención limita su alcance, así: 
+
+
+      .row.justify-content-center.mb-4
+        .col-lg-7
+          .crd.crd--blueGray.p-4.mb-4
+            p.mb-0 #[span.txt--verde Artículo 1.] Objeto. La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos, y los demás derechos, libertades y garantías constitucionales relacionadas con la recolección, tratamiento y circulación de datos personales a que se refiere el Artículo 15 de la Constitución Política, así como el derecho a la información establecido en el Artículo 20 de la Constitución Política, particularmente en relación con la información financiera y crediticia, comercial, de servicios y la proveniente de terceros países.
+          p Posteriormente, en su Artículo 6, se enlistan los derechos con los que cuentan los titulares de la información contenida en las bases de datos y sus fuentes de información; asimismo, el artículo siguiente presenta los deberes de los operadores, las fuentes y los usuarios a la hora del registro, mantenimiento y comunicación de la información recolectada.
+          p Finalmente, la Ley 1581 de 2012, junto a su decreto reglamentario emitido el año posterior (Decreto 1377 de 2013), complementan la regulación de la información de las bases de datos, incluyendo aspectos clave como las autorizaciones del uso de la información consignada y la debida gestión que deben dar los operadores. #[span.txt--verde Actualmente, es la Superintendencia de Industria y Comercio la encargada de ejercer la supervisión de estas prácticas por parte de los diferentes actores de la economía en Colombia].
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/tema1/t1_19.png", alt="alt", style="width:525px;").m-auto
+
+    
+    .row.justify-content-center.mb-4
+      .col-xl-3
+        p Si el aprendiz desea profundizar en estas políticas, se recomienda la lectura de la normativa relacionada previamente, a través de las siguientes fuentes:
+      .col-xl-9
+        .row
+          .col-lg-4
+            a(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488", target="_blank", title="") 
+              .crd.crd-link
+                figure.mb-4
+                  img(src="@/assets/curso/tema1/t1_20.svg", alt="alt", style="width:90px;").m-auto
+                p Ley 1266 de 2008 
+          .col-lg-4
+            a(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html",target="_blank", title="")
+              .crd.crd-link
+                figure.mb-4
+                  img(src="@/assets/curso/tema1/t1_20.svg", alt="alt", style="width:90px;").m-auto
+                p Ley 1581 de 2012 
+          .col-lg-4
+            a(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081", target="_blank", title="")
+              .crd.crd-link
+                figure.mb-4
+                  img(src="@/assets/curso/tema1/t1_20.svg", alt="alt", style="width:90px;").m-auto
+                p Decreto 1377 de 2013  
+
+    separador
+
+    #t_1_5.titulo-segundo.color-acento-contenido
+      h2 1.5 Confidencialidad
+
+    p.mb-5 Una fuente es el origen de los datos, de donde proviene la información. Según su procedencia, pueden clasificarse así:    
+        
+    ImagenInfografica.color-acento-botones
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1/t1_21.svg', alt='')            
+
+      .tarjeta.color-paleYellow.p-3(x="46%" y="23.5%" numero="+")
+        .h5.mb-2 Fuentes primarias
+        p.mb-0 provienen de un trabajo intelectual original, donde su autor observó los hechos y los registró, sin soportarse en el trabajo de otros. Son considerados los datos más confiables, puesto que no sufren ningún tipo de transformación o adaptación y, por lo tanto, transmiten las ideas de la forma más fidedigna a la voluntad del autor. Ejemplos de estas fuentes son las encuestas, cuestionarios, libros o fotografías.
+
+      .tarjeta.color-paleYellow.p-3(x="46%" y="75%" numero="+")
+        .h5.mb-2 Fuentes secundarias
+        p.mb-0 Surgen de las fuentes primarias, es decir, se nutren de contenido ya registrado y recopilado, sometiéndolo a transformaciones o adaptaciones, para facilitar el proceso de transmisión o para complementar el trabajo realizado por el autor original. Ejemplos de este tipo de fuentes son los resúmenes, traducciones, reseñas o adaptaciones de contenido original. Usualmente, no son utilizadas en investigaciones, puesto que en el proceso de transformación pueden omitirse datos relevantes. 
+        
+
+
+
+
+
+
+      
+
+
+     
+     
+      
+  
+</template>
+
+<script>
+export default {
+  name: 'Tema1',
+  components: {},
+  data: () => ({
+    // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
+
+<style lang="sass"></style>
