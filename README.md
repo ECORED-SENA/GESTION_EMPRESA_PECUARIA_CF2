@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Gestión de empresas pecuarias**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/GESTION_EMPRESA_PECUARIA_CF2/](https://ecored-sena.github.io/GESTION_EMPRESA_PECUARIA_CF2/)
 
 #
 
