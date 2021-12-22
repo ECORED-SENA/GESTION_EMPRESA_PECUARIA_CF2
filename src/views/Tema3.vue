@@ -166,7 +166,7 @@
           .row.justify-content-center.align-items-center
             .col-lg
               h3.txt--azul Demo
-              p Son las versiones de prueba de programas que tienen una versión completa y, usualmente, de pago. Para acceder al contenido completo, se hace necesario un desembolso de dinero de forma periódica o a través de la adquisición de una licencia vitalicia. Su propósito es permitir un uso restringido del aplicativo, para otorgarle la oportunidad al usuario de probar si cumple con sus necesidades antes de efectuar el pago          
+              p Son las versiones de prueba de programas que tienen una versión completa y, usualmente, de pago. Para acceder al contenido completo, se hace necesario un desembolso de dinero de forma periódica o a través de la adquisición de una licencia vitalicia. Su propósito es permitir un uso restringido del aplicativo, para otorgarle la oportunidad al usuario de probar si cumple con sus necesidades antes de efectuar el pago.       
             .col-auto
               figure
                 img(src='@/assets/curso/tema3/t3_11.png', alt='',style="width:500px;")                

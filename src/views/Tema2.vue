@@ -94,7 +94,7 @@
 
       .cp.mb-4
         .square
-        h3 Recomendaciones para el observador
+        h3 Modalidades de observación
 
       p La observación puede clasificarse según diversos criterios, a continuación, se presentan los sistemas que gozan de mayor aceptación:
 
