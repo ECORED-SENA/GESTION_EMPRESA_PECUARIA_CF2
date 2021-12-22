@@ -8,21 +8,22 @@
         span 2
       h1 Métodos de recolección
 
-    .bloque-texto-a.clr-01.p-4.p-md-5.mb-5 
+    .bloque-texto-a.clr-01.p-2.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between        
         .col-lg-8.order-2.order-lg-1
           .bloque-texto-a__texto.p-4
             p A la hora de llevar a cabo un estudio de cualquier naturaleza, es necesario #[span.txt--verde preguntarse qué información será requerida y a través de cuál herramienta será recolectada]. Para ello, es recomendable un análisis asociado a las necesidades que se esperan satisfacer y la naturaleza de los datos; una vez se tiene claridad sobre lo anterior, se proponen las metodologías y se elige aquella que resulte más efectiva dada la disponibilidad de recursos.
         .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
           figure
-            img(src="@/assets/curso/tema2/t2_01.svg", alt="alt", style="width:300px;").m-auto
+            img(src="@/assets/curso/tema2/t2_01.svg", alt="alt", style="width:250px;").m-auto
 
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Criterio de selección
 
-    .row.justify-content-center
-      .col-lg-5
-        p.mb-4 Elegir una metodología de recolección de información es uno de los pasos cruciales a la hora de efectuar cualquier tipo de investigación. Una decisión errónea en este aspecto puede conllevar el uso desmedido de recursos con resultados inútiles, o a un esfuerzo desproporcionado e innecesario. Debido a lo anterior, es importante contar con personal capacitado en la herramienta a utilizar, de tal forma que se reduzca el margen de error. A continuación, se presentan una serie de elementos a tener presente a la hora de elegir un método de recolección de información:
+    .row.justify-content-center.position-relative
+      .col-lg-5.position-relative
+        .greenSquare
+          p.mb-4 Elegir una metodología de recolección de información es uno de los pasos cruciales a la hora de efectuar cualquier tipo de investigación. Una decisión errónea en este aspecto puede conllevar el uso desmedido de recursos con resultados inútiles, o a un esfuerzo desproporcionado e innecesario. Debido a lo anterior, es importante contar con personal capacitado en la herramienta a utilizar, de tal forma que se reduzca el margen de error. A continuación, se presentan una serie de elementos a tener presente a la hora de elegir un método de recolección de información:
         figure
           img(src="@/assets/curso/tema2/t2_02.png", alt="alt", style="width:500px;").m-auto
       .col-lg-7
@@ -66,7 +67,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-mL5NWWnR8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .cp.mb-4
       .square
@@ -79,14 +80,17 @@
           figure
             img(src="@/assets/curso/tema2/t2_07.png", alt="alt", style="505px;").m-auto
         .col-lg-7
+          .bg_leaf_05.d-none.d-lg-inline
+            figure
+              img(src="@/assets/curso/leaf_02.png", alt="alt", style="width:235px;").m-auto
           LineaTiempoD.color-secundario
-            p(numero="1" titulo="Definir el objeto de la observación") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+            p(numero="1" titulo="Definir el objeto de la observación").mb-0  En muchas ocasiones, la falta de un objetivo definido nubla el juicio de los investigadores y lleva a que su atención se disperse en aspectos de menor relevancia. Es importante definir el sujeto o fenómeno, los comportamientos o las características que se quiere observar, de la manera más específica posible, para centrarse solo en ello.
 
-            p(numero="2" titulo="Diseñar herramientas idóneas") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+            p(numero="2" titulo="Diseñar herramientas idóneas").mb-0 Para que la observación siga un esquema concreto, donde los datos obtenidos puedan ser registrados de forma precisa y oportuna.
 
-            p(numero="3" titulo="Diseñar una planeación") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+            p(numero="3" titulo="Diseñar una planeación").mb-0  Para ser aplicada de manera estricta, donde se definan las actividades previas y aquellas que pondrán a prueba las afirmaciones estudiadas, de tal forma que se den todas las condiciones necesarias para que el trabajo brinde resultados.
 
-            p(numero="4" titulo="Asignar labores y distribuir el trabajo") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+            p(numero="4" titulo="Asignar labores y distribuir el trabajo").mb-0  De tal forma que el equipo involucrado realice las tareas de forma organizada y eficiente. Esto solo aplica para los trabajos investigativos que requieran de más de un investigador o colaborador.
 
       .cp.mb-4
         .square
@@ -260,13 +264,16 @@
         figure
           img(src="@/assets/curso/tema2/t2_15.png", alt="alt", style="width:600px;").m-auto
 
-    .crd_01.bg_crd_02
+    .crd_01.bg_crd_02.parentDept
       .row.justify-content-center.align-items-center
         .col-lg-7.order-2.order-lg-1          
           p.mb-o Gracias a la elaboración del cuadro de trabajo, se pueden alcanzar conclusiones que de otra forma pasarían desapercibidas. Una tabla como esta puede aportar información de interés, por ejemplo, que el modelo 3 goza de una mayor aceptación comercial, que el color más popular es el blanco, o que la combinación más habitual es la del modelo 1 de color negro.
         .col-lg-4.order-1.order-lg-2
           figure
             img(src="@/assets/curso/tema2/t2_16.png", alt="alt", style="width:320px;").m-auto
+      .bg_leaf_04.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/leaf_02.png", alt="alt", style="width:235px;").m-auto
 
     separador
 
@@ -293,11 +300,11 @@
           img(src="@/assets/curso/tema2/t2_17.svg", alt="alt", style="width:500px").m-auto
       .col-lg-7
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Estructuradas").mb-0 previo al acercamiento con el entrevistado, el investigador diseña un listado de preguntas establecido e inmodificable. Ofrecen especial utilidad para pruebas con un gran número de sujetos, dado que facilitan la comparación de respuestas y limitan las posibilidades de que los encuestados divaguen o pierdan el hilo conductor.
+          p(numero="1" titulo="Estructuradas").mb-0 Previo al acercamiento con el entrevistado, el investigador diseña un listado de preguntas establecido e inmodificable. Ofrecen especial utilidad para pruebas con un gran número de sujetos, dado que facilitan la comparación de respuestas y limitan las posibilidades de que los encuestados divaguen o pierdan el hilo conductor.
 
-          p(numero="2" titulo="Semiestructuradas").mb-0 enlistan una serie de tópicos que cumplen el papel de guía, las preguntas son abiertas y se diseñan para ofrecer un punto de referencia. Las temáticas son claras, pero el encuestador tendrá libertad de modificar el libreto según la situación lo requiera. Esta flexibilidad permite encaminar la entrevista a aquellos aspectos que se consideren más relevantes, adicionando preguntas o cambiando su orden para maximizar la obtención de información.
+          p(numero="2" titulo="Semiestructuradas").mb-0 Enlistan una serie de tópicos que cumplen el papel de guía, las preguntas son abiertas y se diseñan para ofrecer un punto de referencia. Las temáticas son claras, pero el encuestador tendrá libertad de modificar el libreto según la situación lo requiera. Esta flexibilidad permite encaminar la entrevista a aquellos aspectos que se consideren más relevantes, adicionando preguntas o cambiando su orden para maximizar la obtención de información.
 
-          p(numero="2" titulo="No estructuradas").mb-0 Este tipo de entrevistas no poseen ningún libreto ni guía inicial, de esta forma, se le cede toda la responsabilidad al entrevistador para indagar y obtener información. De esta categoría se desprenden dos tipos:
+          p(numero="3" titulo="No estructuradas").mb-0 Este tipo de entrevistas no poseen ningún libreto ni guía inicial, de esta forma, se le cede toda la responsabilidad al entrevistador para indagar y obtener información. De esta categoría se desprenden dos tipos:
             br
             br
             | #[strong 1) Focalizadas:] aunque no tienen un guion, sí se fija una temática en específico, se esperan respuestas abiertas y espontáneas, mientras que el entrevistador deberá usar su pericia para encaminar la conversación a aquellos tópicos que aporten información de la temática elegida previamente.
@@ -316,8 +323,10 @@
         .col-lg-6
           h5 Posibilidades
           p Con este sistema, se puede profundizar ampliamente en cualquiera de los temas abordados, esto surge de la naturaleza de la información que se espera recolectar. Si las preguntas son abiertas, la gama de respuestas puede ser tan amplia como la diversidad misma de los entrevistados, incluso, el lenguaje no verbal o la emotividad tras una respuesta puede brindar más elementos de juicio a la hora de registrar la información.
-          .crd.crd--blue.mb-4
-            p.text-white.mb-0 Gracias a la dinámica que surge entre el entrevistador y el entrevistado, es posible efectuar cambios durante la marcha, de tal forma que la conversación se torne más cómoda para ambas partes. Esta flexibilidad permite ahondar en los aspectos más relevantes de la investigación y puede aportar una confianza mayor, que lleve a respuestas profundas y sinceras.
+          .row
+            .col-12.cust
+              .crd.crd--blue.mb-4
+                p.text-white.mb-0 Gracias a la dinámica que surge entre el entrevistador y el entrevistado, es posible efectuar cambios durante la marcha, de tal forma que la conversación se torne más cómoda para ambas partes. Esta flexibilidad permite ahondar en los aspectos más relevantes de la investigación y puede aportar una confianza mayor, que lleve a respuestas profundas y sinceras.
           p Debido a que las preguntas suelen ser abiertas, es posible obtener información más allá de lo esperado. Esto permite reinterpretar la investigación en caso de ser necesario un replanteamiento según la evidencia indique.
           p El entendimiento de la información obtenida se facilita gracias a la interacción con el investigador, quien puede preguntar o solicitar aclaraciones adicionales cuando lo considere necesario, evitando confusiones o malas interpretaciones.
         .col-lg-6
@@ -400,13 +409,16 @@
               figure
                 img(src='@/assets/curso/tema2/t2_26.png', alt='',style="width:350px;").m.auto
 
-    .crd_01.bg_crd_02
-      .row.justify-content-center.align-items-center
+    .crd_01.bg_crd_02.parentDept
+      .row.justify-content-center.align-items-center.position-relative
         .col-lg-7.order-2.order-lg-1          
           p.mb-o Para el análisis de la información recolectada, se requerirá aún de más tiempo, puesto que las respuestas suelen estar abiertas a interpretación. #[span.txt--verde El investigador debe ser conocedor de los temas estudiados para poder prestar un criterio válido y apropiado]. Se recomienda listar las conclusiones más importantes y relacionar aspectos relevantes de la conversación que van más allá de las respuestas, como el ya mencionado lenguaje corporal o la disposición para abordar temas específicos por parte del entrevistado.
         .col-lg-4.order-1.order-lg-2
           figure
             img(src="@/assets/curso/tema2/t2_27.png", alt="alt", style="width:320px;").m-auto
+      .bg_leaf_04.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/leaf_02.png", alt="alt", style="width:235px;").m-auto
 
     separador
 
@@ -430,6 +442,9 @@
               p.mb-0 La facilidad de aplicación de la encuesta la ha convertido en una estrategia de amplia aceptación; esto se debe, en primera medida, al avance de las herramientas tecnológicas que permiten alcanzar poblaciones mucho mayores, de forma efectiva y casi inmediata. Es común observar encuestas enviadas y diligenciadas con el teléfono celular o un ordenador con acceso a Internet; si son lo suficientemente breves, pueden responderse en unos cuantos minutos, lo que facilita aún más el reclutamiento de sujetos para ser objeto de estudio.
 
     .bg_gray
+      .bg_leaf_01
+        figure
+          img(src="@/assets/curso/leaf_01.png", alt="alt", style="width:235px;").m-auto
       .cp.pt-5.mb-4
         .square
         h3 Posibilidades y limitaciones
@@ -458,6 +473,9 @@
           p.text-center Los análisis comparativos son mucho más accesibles, gracias a su sistema de recolección y organización de datos.
 
     .bg_gray_02.pb-5
+      .bg_leaf_02
+        figure
+          img(src="@/assets/curso/leaf_02.png", alt="alt", style="width:135px;").m-auto
       h4.text-center.pt-5 Limitaciones
       .row.justify-content-center
         .col-md-7.col-xl-4
@@ -487,7 +505,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0       
-        p.mb-0 En lista una serie de preguntas diseñadas por el investigador y otorga un espacio para diligenciar la respuesta por parte de los encuestados. #[span.txt--azul A la hora de su elaboración, es recomendable una codificación que posibilite la tabulación y consolidación de respuestas a través de hojas de trabajo]. Se debe propender por consultas que se satisfagan con respuestas cerradas (opción múltiple, si/no, falso o verdadero), para reducir el número de variables a estudiar.
+        p.mb-0 Enlista una serie de preguntas diseñadas por el investigador y otorga un espacio para diligenciar la respuesta por parte de los encuestados. #[span.txt--azul A la hora de su elaboración, es recomendable una codificación que posibilite la tabulación y consolidación de respuestas a través de hojas de trabajo]. Se debe propender por consultas que se satisfagan con respuestas cerradas (opción múltiple, si/no, falso o verdadero), para reducir el número de variables a estudiar.
       .col-lg-8
         .row.gx-0
           .col-lg-4
@@ -498,7 +516,7 @@
             .crd.crd--paleblue
               p.mb-0 El fuerte de los cuestionarios radica en buscar información cuantitativa y descriptiva; a la hora de su elaboración, el investigador debe comprender la problemática sobre la que espera indagar, de tal manera que las preguntas se enfoquen en trabajar cada aspecto de relevancia para la investigación. Así pues, cada variable puede ser puesta a prueba por una o múltiples preguntas, en función del nivel de detalle que se busque.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-3
         p #[span.txt--azul Para el diseño de preguntas se recomienda:]
       .col-lg-9
@@ -616,7 +634,7 @@
         .col-lg-4
           .cp
             .square
-            h3 Cédula de entrevista
+            h3 Aplicaciones
           p Esta metodología resulta la de mayor uso, debido a sus costos reducidos y a la facilidad del acceso a la información en la actualidad. Algunos de los usos que se le pueden dar son los siguientes: 
         .col-lg-8
           SlyderF(columnas="col-lg-6 col-xl-6").pb-5

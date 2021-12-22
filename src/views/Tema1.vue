@@ -211,18 +211,23 @@
           .col-lg-6            
             p El ser humano ha ampliado su intelecto en todas las direcciones, desde las ciencias de la salud, hasta las económicas, desde el aspecto deportivo, hasta el musical; y este crecimiento exponencial y multidireccional lo ha llevado a utilizar jergas muy específicas para cada campo del conocimiento. El lenguaje técnico se caracteriza por ser accesible únicamente para los estudiados en cierta materia, pero su uso es cada vez más popular, debido a la constante profundización en las temáticas objeto de estudio. 
 
-    .crd_01.bg_crd_02.mb-5
-      .row.justify-content-center.align-items-center
-        .col-lg-7.order-2.order-lg-1
+    .crd_01.bg_crd_02.mb-5.parentDept
+      .row.justify-content-center.align-items-center.z-top
+        .col-lg-7.order-2.order-lg-1.z-top
           .cp
             .waves_01
             p #[span.txt--verde Conforme pasa el tiempo, el enriquecimiento de nuestro idioma se ve liderado por la utilización de lenguajes técnicos para todas las disciplinas abordadas]. Castillo (2018) sugiere las siguientes características para este lenguaje:
-        .col-lg-4.order-1.order-lg-2
+        .col-lg-4.order-1.order-lg-2.z-top
           figure
             img(src="@/assets/curso/tema1/t1_15.png", alt="alt", style="width:320px;").m-auto
+      .bg_leaf_04
+        figure
+          img(src="@/assets/curso/leaf_02.png", alt="alt", style="width:235px;").m-auto
+        
+             
 
-    .bg_waves_01
-      .row.justify-content-center
+    .bg_waves_01      
+      .row.justify-content-center        
         .col-10
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
@@ -245,7 +250,12 @@
               .h5.mb-2 Carácter unívoco
               p.mb-0 El lenguaje técnico es tan cerrado a un tema particular que es muy poco probable encontrar más de un significado para sus términos. Esto quiere decir que no es para nada habitual evidenciar términos equivalentes, por lo que cada palabra siempre suele significar lo mismo.
 
-      separador 
+        .col-12.d-none.d-lg-flex
+          .bg_leaf_01
+            figure
+              img(src="@/assets/curso/leaf_01.png", alt="alt", style="width:235px;").m-auto
+
+      separador         
 
       #t_1_4.titulo-segundo.color-acento-contenido
         h2 1.4 Confidencialidad
@@ -254,8 +264,10 @@
         .col-lg-7
           p La información es un bien preciado para cualquier individuo, natural o jurídico, puesto que a través de ello se puede acceder a eventos pasados para prever situaciones futuras. Este material histórico puede ser considerado sensible según las particularidades del mismo; por ejemplo, la dirección de residencia de una persona, su teléfono personal o los datos de sus cuentas bancarias son datos que no pueden ser publicados a un amplio grupo de terceros, debido a las consecuencias que ello puede traer.
           p #[span.txt--verde La Constitución Política de 1991 ya consideró este tipo de eventos, por lo que en su Artículo 15 reguló el derecho a la intimidad de las personas, así:]
-          .crd.crd--blueGray
-            p.mb-0 #[span.txt--verde ARTÍCULO 15.] Constitución Política. Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
+          .row
+            .col-12.cust2             
+              .crd.crd--blueGray
+                p.mb-0 #[span.txt--verde ARTÍCULO 15.] Constitución Política. Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
         .col-lg-5
           figure
             img(src="@/assets/curso/tema1/t1_17.png", alt="alt", style="width:525px;").m-auto
@@ -290,34 +302,41 @@
             img(src="@/assets/curso/tema1/t1_19.png", alt="alt", style="width:525px;").m-auto
 
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4     
       .col-xl-3
         p Si el aprendiz desea profundizar en estas políticas, se recomienda la lectura de la normativa relacionada previamente, a través de las siguientes fuentes:
       .col-xl-9
-        .row
-          .col-lg-4
+        .row       
+          .col-lg-4.position-relative  
             a(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488", target="_blank", title="") 
               .crd.crd-link
                 figure.mb-4
                   img(src="@/assets/curso/tema1/t1_20.svg", alt="alt", style="width:90px;").m-auto
                 p Ley 1266 de 2008 
-          .col-lg-4
+          .col-lg-4.position-relative  
             a(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html",target="_blank", title="")
               .crd.crd-link
                 figure.mb-4
                   img(src="@/assets/curso/tema1/t1_20.svg", alt="alt", style="width:90px;").m-auto
                 p Ley 1581 de 2012 
           .col-lg-4
-            a(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081", target="_blank", title="")
+            a(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1276081", target="_blank", title="").z-top
               .crd.crd-link
                 figure.mb-4
                   img(src="@/assets/curso/tema1/t1_20.svg", alt="alt", style="width:90px;").m-auto
-                p Decreto 1377 de 2013  
+                p Decreto 1377 de 2013           
+        
+
+    .row.position-relative
+      .col-12
+        .bg_leaf_03
+          figure
+            img(src="@/assets/curso/leaf_02.png", alt="alt", style="width:135px;").m-auto
 
     separador
 
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5 Confidencialidad
+      h2 1.5 Fuentes
 
     p.mb-5 Una fuente es el origen de los datos, de donde proviene la información. Según su procedencia, pueden clasificarse así:    
         

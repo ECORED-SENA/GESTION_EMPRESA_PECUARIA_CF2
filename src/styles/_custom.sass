@@ -1,9 +1,34 @@
+.curso-main-container > .container 
+    overflow-x: initial
+  
 /////////// Variables color
 $Olive: #679c26
 $GrayBlue: #3C6D9D
 $paleYellow: #F5DB9A
 
 ///////// Utilidades
+
+.cust
+  position: relative
+  max-width: 900px
+  width: 750px
+  z-index: 999
+
+.cust2
+  position: relative
+  max-width: 1000px
+  width: 820px
+  z-index: 999
+
+@media (max-width: 1400px)
+  .cust
+    max-width: 900px
+    width: 650px
+@media (max-width: 1199px)
+  .cust, .cust2
+    width: 100%
+
+
 
 //////////// Utilidades de texto
 
@@ -109,8 +134,7 @@ $paleYellow: #F5DB9A
     background-color: #E8E8E8 
 
 .crd--blue 
-  background-color: #3C6D9D
-  border-radius: 25px
+  background-color: #3C6D9D  
 
 .crd--griss
   background-color: #E8EEF3
@@ -121,7 +145,6 @@ $paleYellow: #F5DB9A
 
 .negMargin  
   margin-left: -4rem
-
   
 /////////// Fondos
 
@@ -187,6 +210,59 @@ $paleYellow: #F5DB9A
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: top
+
+.parentDept
+  position: relative
+  transform-style: preserve-3d
+
+.bg_leaf_01
+  position: absolute !important
+  bottom: -5rem
+  left: -2.5rem
+  z-index: 999
+
+.bg_leaf_02
+  position: absolute !important
+  bottom: -4rem
+  right: -2.5rem
+  z-index: 999
+
+.bg_leaf_03  
+  position: absolute !important
+  bottom: -4rem
+  right: -2.5rem
+  z-index: 0
+
+.bg_leaf_04
+  position: absolute !important
+  right: -3rem
+  bottom: -6rem
+  z-index: 0
+  transform: translateZ(-10px)
+
+.bg_leaf_05
+  position: absolute !important
+  right: -3rem
+  bottom: -2rem
+  z-index: 0
+
+.greenSquare
+  p
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 45%
+    height: 15%
+    background-color: #E9F3DD
+    z-index: 0
+  
+
+.z-top
+  position: relative
+  z-index: 999
 
 .bg_gray
   position: relative
